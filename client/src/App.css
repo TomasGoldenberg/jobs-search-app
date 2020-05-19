@@ -1,0 +1,32 @@
+body{
+  margin:20px 40px ;
+}
+.job{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  margin :10px 0;
+  padding :20px 10px;
+  left:100px;
+  justify-content: space-between;
+  border-bottom:solid 2px blue;
+}
+
+.job:hover{
+  cursor:pointer;
+  color: #667;
+}
+
+.detail-logo{
+  height: 30px;
+  float: right;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
