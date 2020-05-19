@@ -36,6 +36,7 @@ async function fetchGithub(){
             jobTitle.includes("senior") ||
             jobTitle.includes("maneger") ||
             jobTitle.includes("sr.")    ||
+            jobTitle.includes("lead")    ||
             jobTitle.includes("architect") 
             ){
                return false
